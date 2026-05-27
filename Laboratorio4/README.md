@@ -44,18 +44,10 @@ pruebas/
 └── caso6_completo.txt
 ```
 
-## Como ejecutar
+## Como usar
 
-Desde la raiz del proyecto:
 
-```cmd
-rmdir /s /q bin
-mkdir bin
-javac -encoding UTF-8 -d bin src\App.java src\Inicio.java src\Token.java src\AnalizadorLexico.java src\Parser.java src\GeneradorCodigo.java
-java -cp bin App
-```
-
-Luego ingresar la ruta del archivo fuente.
+Simplemente ingresar la ruta del archivo fuente, el cual debe de ser un .txt, luego la salida se mostrará tanto en consola como en un output de .tac
 
 Ejemplo:
 
