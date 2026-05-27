@@ -3,9 +3,11 @@
 ## Descripcion
 
 Laboratorio hecho
+
+```txt
 Sophia Corea 1185324
 Javier Monje 1260524
-
+```
 Este laboratorio implementa un generador de codigo intermedio de tres direcciones para un subconjunto de lenguaje visto en clase.
 
 El programa lee un archivo fuente `.txt`, analiza asignaciones, expresiones aritmeticas, expresiones booleanas y estructuras de control. Como salida genera codigo de tres direcciones y lo guarda en un archivo `.tac` (Según la documentación es abrevación de "three adress code"). Citamos a GeeksForGeeks 2026 Abril 11 https://www.geeksforgeeks.org/compiler-design/three-address-code-compiler/ con información que utilizamos para la elaboración de este laboratorio
@@ -226,7 +228,7 @@ Se soporta:
 *
 /
 ()
-menos unario
+menos (signo)
 id
 num
 ```
@@ -325,15 +327,15 @@ L3:
 caso1_aritmetica.txt
 ```
 
-Prueba expresiones aritmeticas con precedencia.
+Prueba con operaciones matemáticas.
 
 ### Caso 2
 
 ```txt
-caso2_menos_unario.txt
+caso2_menos.txt
 ```
 
-Prueba menos unario.
+Prueba con el "menos".
 
 ### Caso 3
 
@@ -349,7 +351,7 @@ Prueba estructura `if-else`.
 caso4_while.txt
 ```
 
-Prueba ciclo `while`.
+Prueba ciclo `while`, es el ejercicio dejado como repaso en el curso.
 
 ### Caso 5
 
@@ -419,9 +421,3 @@ Construye una estructura de nodos para representar asignaciones, expresiones, bo
 
 Recorre los nodos y genera codigo de tres direcciones usando temporales y etiquetas.
 
-## Integrantes
-
-```txt
-Nombre 1
-Nombre 2
-```
