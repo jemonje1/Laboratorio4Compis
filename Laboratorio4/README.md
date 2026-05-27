@@ -2,9 +2,13 @@
 
 ## Descripcion
 
+Laboratorio hecho
+Sophia Corea 1185324
+Javier Monje 1260524
+
 Este laboratorio implementa un generador de codigo intermedio de tres direcciones para un subconjunto de lenguaje visto en clase.
 
-El programa lee un archivo fuente `.txt`, analiza asignaciones, expresiones aritmeticas, expresiones booleanas y estructuras de control. Como salida genera codigo de tres direcciones y lo guarda en un archivo `.tac`.
+El programa lee un archivo fuente `.txt`, analiza asignaciones, expresiones aritmeticas, expresiones booleanas y estructuras de control. Como salida genera codigo de tres direcciones y lo guarda en un archivo `.tac` (Según la documentación es abrevación de "three adress code"). Citamos a GeeksForGeeks 2026 Abril 11 https://www.geeksforgeeks.org/compiler-design/three-address-code-compiler/ con información que utilizamos para la elaboración de este laboratorio
 
 ## Funcionalidades implementadas
 
